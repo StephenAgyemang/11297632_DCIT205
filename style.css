@@ -61,14 +61,15 @@ main{
 
 
 header{
-    
+    display: block;
     width: 100%;
     height: 100px;
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     left: 0;
     background-color: #BD9C6C;
+   z-index: 0;
 }
 .logo{
     width: 250px;
@@ -137,8 +138,8 @@ header{
 
 
 .wrap{
-    margin: 0 auto;
     width: 1000px;
+    display: flex;
 
 }
 
@@ -162,6 +163,10 @@ nav ul li {
 
 }
 
+.header-nav{
+    display: flex;
+    z-index: 0;
+}
 
 nav ul li a {
     text-decoration: none;
@@ -169,7 +174,7 @@ nav ul li a {
     color: #2C2A58;
     font-family:arial round;
     font-weight:bolder;
-    Padding: 0 20px;
+    Padding: 0 10px;
     display: block;
     text-transform: uppercase;
     transition: 0.2s;
@@ -180,18 +185,26 @@ color:white;
 }
 
 
+.dropdown{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    z-index: 100;
+}
 
 
- .dropdown button{
+.dropdown button{
+    display: flex;
     background-color: #2C2A58;
     color: #BD9C6C;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-    margin-bottom: 50px;
-    margin-left: 1010px;
+    margin-left: 1200px;
+    margin-top: -100px;
     border-radius: 4px;
- }
+  
+} 
 
  .dropdown li a{
     display:block;
@@ -200,19 +213,20 @@ color:white;
     color: white;
 
  }
- .dropdown .content{
-    display:none;
+  .dropdown .content{
+    visibility: hidden;
     position:absolute;
     background-color: #2C2A58;
     min-width: 100px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
     margin-left: 1290px;
     text-decoration: none;
+    
  }
 
- .dropdown:hover .content{
-    display: block;
 
+ .dropdown:active .content{
+    visibility: visible;
  }
 
  .dropdown a:hover{
@@ -305,6 +319,10 @@ color:white;
 
 .instagram-icon{
     width: 500px;
+}
+
+.facebook-icon{
+    width: 20px;
 }
 
 /*ABOUT*/
