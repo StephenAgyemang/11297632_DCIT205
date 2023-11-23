@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DCS UG</title>
         <link rel="stylesheet" href="style.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
         
     </head>
      </html>
@@ -33,6 +35,37 @@
 
      </header>
      <main>
+        <section class="gallery-banner">
+            <div class="gallery-banner-overlay">
+                <h1>GALLERY</h1>
+            </div>
+            </section> 
+
+
+            <div class="full-img" id="fullImgBox">
+                <img src="img/under_grad_main.jpg" id="fullimg">
+                <span onclick="closeFullImg()">X</span>
+            </div>
+        <div class="gallery-grid">
+                 <img src="img/under_grad_main.jpg" onclick="openFullImg(this.src)">
+                <img src="img/coursedetail.jpeg" onclick="openFullImg(this.src)">
+                <img src="img/2020-12-13(4).jpg" onclick="openFullImg(this.src)">
+                <img src="img/2019-05-16(1).jpg" onclick="openFullImg(this.src)">
+                <img src="img/about-img2.jpeg" onclick="openFullImg(this.src)">
+                <img src="img/pfd-llb-admission.jpg" onclick="openFullImg(this.src)">
+                <img src="img/2023-05-10(2).jpg" onclick="openFullImg(this.src)">
+
+        </div>
+        <script>
+            var fullImgBox = document.getElementById("fullImgBox")
+            var fullImg = document.getElementById("fullImg")
+
+            function openFullImg(pic){
+             fullImgBox.style.display ="flex";
+             fullImg.src = pic;
+            }
+        </script>
+      
         
         
 
