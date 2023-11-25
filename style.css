@@ -835,3 +835,133 @@ margin-left:100px;
  .lower-box div{
 margin-bottom:20px;
  }
+
+ .contact-overlay details{
+    font-size: 18px;
+    color: #BD9C6C;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align:center;
+}
+
+
+/*RESEARCH*/
+.research1{
+    font-size: 14px;
+        color: white;
+        font-family:sans-serif;
+        display: block;
+        text-align:center;
+}
+
+/*EVENTS/NEWS*/
+.event-grid{
+    display: grid;
+    grid-template:  150px 150px 150px / 450px 450px ;
+    grid-row-gap: 60px;
+    grid-column-gap: 50px ;
+    margin-left:300px;
+    margin-top: 70px;
+
+}
+
+
+    .event-grid div:nth-child(2){
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start:1;
+        grid-column-end: 2;
+    }
+    .event-grid div{
+        border-radius: 20px;
+        background-color: #BD9C6C;
+        border: 3px solid #2C2A58;
+    }
+    .event-grid div .inner-box1{
+        width:130px;
+        height:150px;
+        margin-left:311px;
+        margin-top:-30px;
+        background-color: #2C2A58;
+        border: 3px solid #BD9C6C;
+        display:flex;
+       
+    }
+
+    .event-grid div .inner-box2{
+        width:130px;
+        height:150px;
+        margin-left:311px;
+        margin-top:-122px;
+        background-color: #2C2A58;
+        border: 3px solid #BD9C6C;
+       
+    }
+
+    .event-grid div .inner-box3{
+        width:130px;
+        height:150px;
+        margin-left:311px;
+        margin-top:-10px;
+        background-color: #2C2A58;
+        border: 3px solid #BD9C6C;
+       
+    }
+
+    .event-grid div .inner-box4{
+        width:130px;
+        height:150px;
+        margin-left:311px;
+        margin-top:-10px;
+        background-color: #2C2A58;
+        border: 3px solid #BD9C6C;
+       
+    }
+    
+
+    .event-grid div .inner-box5{
+        width:130px;
+        height:150px;
+        margin-left:311px;
+        margin-top:-10px;
+        background-color: #2C2A58;
+        border: 3px solid #BD9C6C;
+       
+    }
+
+    .event-grid div .inner-box6{
+        width:130px;
+        height:150px;
+        margin-left:311px;
+        margin-top:-10px;
+        background-color: #2C2A58;
+        border: 3px solid #BD9C6C;
+       
+    }
+
+
+    .event-text{
+    font-size: 25px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align:center;
+    margin-right:140px;
+
+    }
+   .event-text1{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    text-align:center;
+    margin-right:140px;
+    margin-top:20px;
+
+   }
+
+    
+
+
+ 
