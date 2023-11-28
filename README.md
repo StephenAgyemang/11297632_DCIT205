@@ -1,18 +1,18 @@
 # 11297632_DCIT_205_IA
-ID: 11297632
-NAME: STEPHEN ASAMOAH AGYEMANG
+ID: 11297632<br>
+NAME: STEPHEN ASAMOAH AGYEMANG<br>
 
-<ins>INTRODUCTION AND PURPOSE OF WEBSITE</ins>
+<ins>INTRODUCTION AND PURPOSE OF WEBSITE</ins><br>
 This report provides an overview of the goals and purpose of the website and provides information on the many opportunities that exist in the computer science sector.
 The primary purpose of this departmental website is to serve as an inclusive and informative resource hub for students, faculty and technology enthusiasts. 
 The goal of this platform is to provide a comprehensive overview of our institution's thriving computer science environment.
 
-<ins>STEPS ON HOW TO CLONE AND SET UP THE PROJECT FROM GITHUB</ins>
+<ins>STEPS ON HOW TO CLONE AND SET UP THE PROJECT FROM GITHUB</ins><br>
 Begin by installing Git on your PC and using the 'cd' (cd path/to/desired-directory) command to move to the directory where you want to store the project.
 To clone the repository, execute the 'git clone' command followed by the repository URL of the forked repository (git clone https://github.com/username/repository.git). 
 Now you are elIgible to add files and edit the repository. 
 
-<ins>SCREENSHOTS</ins>
+<ins>SCREENSHOTS</ins><br>
 ![Alt text](<Screenshot 2023-11-27 100102.png>)
 ![Alt text](<Screenshot 2023-11-27 214741.png>)
 ![Alt text](<Screenshot 2023-11-27 091227.png>) 
